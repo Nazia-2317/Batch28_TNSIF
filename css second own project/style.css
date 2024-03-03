@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+nav{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+ul,li{
+  display: inline;
+}
+li{
+  color: gray;
+  cursor: pointer;
+  
+}
+li:hover{
+  color: white;
+}
+.box{
+  display: inline-block;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  width: 220px;
+
+}
+.images{
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: white;
+  color: black;
+  
+}
+h2:hover{
+  background-color: black;
+  color: white;
+
+}
+h2{
+  cursor: pointer;
+}
+.contact{
+  text-align: center;
+}
+
+
+
+
+
