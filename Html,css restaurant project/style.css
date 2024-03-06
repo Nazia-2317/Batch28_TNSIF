@@ -1,0 +1,139 @@
+:root{
+  --red:crimson;
+  --green:#53Bf9D;
+  --yellow:#FFC54D;
+  --white:whitesmoke;
+}
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+  background-image: url('media images/pexels-jessica-lewis-🦋-thepaintedsquare-858094 (2).jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: var(--white);
+
+}
+header a{
+  text-decoration: none;
+  color: var(--yellow);
+  flex-basis: 50%;
+  min-width: 120px;
+  
+  
+}
+header{
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;row-gap: 1em;
+}
+
+nav{
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+#logo{
+  font-size: 1.25em;
+  min-width: 260px;
+}
+nav a:hover{
+  color: white;
+}
+.maintext{
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  padding: 20px;
+  
+}
+.tagline1{
+  color:var(--red);
+  font-size: 50px;
+  font-weight:bolder;
+}
+.tagline2{
+  color: var(--yellow);
+}
+.maintext div{
+  margin-top: 20px;
+}
+.maintext button{
+  width: 10%;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: var(--green);
+  color: white;
+  border-color: var(--green);
+
+}
+.menu{
+  display: grid;
+  background: gray;
+  grid-template-columns: repeat(auto-fit,minmax(320px));
+  color:var(--white);
+}
+#menuheading,#locheadings{
+  background: gray;
+  color: var(--red);
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.menu th{
+  color: var(--green);
+  font-size: 1.8em;
+ 
+}
+table{
+  width: 100%;
+  padding: 1em;
+}
+.meny tr{
+  display: flex;
+  justify-content: center;
+  margin: .8em;
+}
+.menu td:nth-child(1){
+  justify-self: left;
+  flex: 1;
+}
+.menu td:nth-child(2){
+  justify-self: right;
+}
+.Locations{
+  background: gray;
+  color: var(--white);
+  display: flex;
+}
+.Locations h2{
+  color: var(--green);
+  margin-bottom: .8em;
+}.Locations div{
+  flex: 1;
+  padding: 1em;
+  width: 220px;
+}
+footer{
+  background-color:rgb(55,55,55);
+  color: var(--white);
+  padding: .25em 1em;
+  
+}
+header h2 i,nav a i{
+  margin: .5em;
+}
+
+
+
+
+
+
+
+
+
